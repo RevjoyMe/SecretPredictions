@@ -1,0 +1,202 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\mozga\\Desktop\\taptap\\Giga\\Zama\\Dev Programm\\SecretPredictions\\hardhat\\contracts\\EncryptedBetting.sol": {
+      "lastModificationDate": 1755859754238,
+      "contentHash": "0a20cfaa40d49b0821e48527e77d65f0",
+      "sourceName": "contracts/EncryptedBetting.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MockFHE.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "EncryptedBetting"
+      ]
+    },
+    "C:\\Users\\mozga\\Desktop\\taptap\\Giga\\Zama\\Dev Programm\\SecretPredictions\\hardhat\\contracts\\MockFHE.sol": {
+      "lastModificationDate": 1755859754145,
+      "contentHash": "fd0566619689f2e9670a137878321d00",
+      "sourceName": "contracts/MockFHE.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "TFHE"
+      ]
+    },
+    "C:\\Users\\mozga\\Desktop\\taptap\\Giga\\Zama\\Dev Programm\\SecretPredictions\\hardhat\\contracts\\PredictionMarket.sol": {
+      "lastModificationDate": 1755859754390,
+      "contentHash": "58f8674d5f8632690b1a45d53994fe51",
+      "sourceName": "contracts/PredictionMarket.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MockFHE.sol",
+        "./interfaces/IPredictionMarket.sol",
+        "./EncryptedBetting.sol",
+        "./OracleIntegration.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "PredictionMarket"
+      ]
+    },
+    "C:\\Users\\mozga\\Desktop\\taptap\\Giga\\Zama\\Dev Programm\\SecretPredictions\\hardhat\\contracts\\interfaces\\IPredictionMarket.sol": {
+      "lastModificationDate": 1755859754275,
+      "contentHash": "ab9bc4efa6011c558e8f229bd897898b",
+      "sourceName": "contracts/interfaces/IPredictionMarket.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../MockFHE.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "IPredictionMarket"
+      ]
+    },
+    "C:\\Users\\mozga\\Desktop\\taptap\\Giga\\Zama\\Dev Programm\\SecretPredictions\\hardhat\\contracts\\OracleIntegration.sol": {
+      "lastModificationDate": 1755855622972,
+      "contentHash": "c9055c67eecbb4e5f78293757573763f",
+      "sourceName": "contracts/OracleIntegration.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MockFHE.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface",
+        "OracleIntegration"
+      ]
+    }
+  }
+}
